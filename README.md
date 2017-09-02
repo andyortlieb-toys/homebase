@@ -29,3 +29,21 @@ Simply `homebase use <name> [<name> [...]]` any number of profiles that you wish
 `-p <path>` : Full path to a profile base, in case you want to use one not on your path
 `-i <path>[:<path>[:...]]` : Path(s) to be included for searching for profiles by name.
 
+
+# NAQ
+
+Here are the questions that have never been asked!
+
+### Q: For whom is this useful?
+
+A: Users & Organizations
+
+#### Organizations
+
+System administrators can hook their account creation process to give users different kinds of profiles based on their role in the organization.
+
+#### Users
+
+Regardless of whether an organization has set the user up with profiles, (if allowed by the organization) the user may also select various profiles to overlay.
+
+
