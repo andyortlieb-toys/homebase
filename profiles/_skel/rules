@@ -1,0 +1,5 @@
+# This profile `rules` file ensures that this profile only gets deployed to appropriate environments.
+
+## Examples:
+#(require os.family "linux" || require os.family "osx" || (require os.family "windows" && require.os.version gt 10))
+

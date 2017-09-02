@@ -1,0 +1,19 @@
+# You can define behavior of the homebase tool here.
+
+# GRAMMAR
+# `#` Lines like this, starting with "#" are comments.
+# `:` Append to properties which support multiple values (a list)
+# `=` Assign to properties which support exactly one value.
+
+## Sample usage:
+## Blacklisting.  You can prevent the installation of profiles that include blacklisted profiles.
+blacklist: _skel
+#blacklist: guy-i-do-not-like
+
+## Properties & configuration
+## You can tune the behavior of homebase
+#never-overwrite = true
+#profile-definitions: ~/homebase_private_profiles
+#profile-definitions: /usr/share/homebase/profiles
+#profile-definitions: /usr/local/share/homebase/profiles
+#profile-definitions: /usr/local/share/homebase/private_profiles
